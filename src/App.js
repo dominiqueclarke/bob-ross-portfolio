@@ -16,14 +16,14 @@ import Intro from "components/Intro/Intro";
  * when pulled from a data file. Adding it to App.js temporarily */
 export const ART = [
     {
-        asset: "background1.jpg",
-        artistName: "Europeana",
-        artistLink: "https://unsplash.com/@europeana",
-    },
-    {
         asset: "background2.jpg",
         artistName: "Steve Johnson",
         artistLink: "https://unsplash.com/@steve_j",
+    },
+    {
+        asset: "background1.jpg",
+        artistName: "Europeana",
+        artistLink: "https://unsplash.com/@europeana",
     },
     {
         asset: "background3.jpg",
