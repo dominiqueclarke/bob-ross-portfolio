@@ -12,7 +12,50 @@ import Credits from "components/Credits/Credits";
 import Header from "components/Header/Header";
 import Intro from "components/Intro/Intro";
 
-import { ART } from "data/art";
+/* For some reason, the production build is not recognizing this constant
+ * when pulled from a data file. Adding it to App.js temporarily */
+export const ART = [
+    {
+        asset: "background1.jpg",
+        artistName: "Europeana",
+        artistLink: "https://unsplash.com/@europeana",
+    },
+    {
+        asset: "background2.jpg",
+        artistName: "Steve Johnson",
+        artistLink: "https://unsplash.com/@steve_j",
+    },
+    {
+        asset: "background3.jpg",
+        artistName: "Daniel Olah",
+        artistLink: "https://unsplash.com/@danesduet",
+    },
+    {
+        asset: "background4.jpg",
+        artistName: "Orlova Maria",
+        artistLink: "https://unsplash.com/@orlovamaria",
+    },
+    {
+        asset: "background5.jpg",
+        artistName: "Geordanna Cordero",
+        artistLink: "https://unsplash.com/@geordannatheartist",
+    },
+    {
+        asset: "background6.jpg",
+        artistName: "Europeana",
+        artistLink: "https://unsplash.com/@europeana",
+    },
+    {
+        asset: "background7.jpg",
+        artistName: "Europeana",
+        artistLink: "https://unsplash.com/@europeana",
+    },
+    {
+        asset: "background8.jpg",
+        artistName: "Geordanna Cordero",
+        artistLink: "https://unsplash.com/@geordannatheartist",
+    },
+];
 
 function App() {
     const [art, setArt] = useState({
