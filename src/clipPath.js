@@ -2,7 +2,7 @@ export default function startScratch() {
     const art = document.getElementById("art");
     const artCanvas = art.getContext("2d");
     const brushRadius = 100;
-    const isMobile = window.matchMedia("(max-width: 640px)");
+    const isMobile = window.matchMedia("(max-width: 640px)").matches;
 
     artCanvas.canvas.width = window.innerWidth;
     artCanvas.canvas.height = window.innerHeight;
