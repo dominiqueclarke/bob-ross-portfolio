@@ -1,0 +1,27 @@
+.heading {
+    text-align: center;
+    margin: 0 auto 20px;
+    font-family: "Permanent Marker";
+}
+
+.heading--s {
+    font-size: 18px;
+}
+
+.heading--m {
+    font-size: 22px;
+}
+
+.heading--l {
+    font-size: 28px;
+}
+
+.heading:after {
+    content: "";
+    display: block;
+    height: 8px;
+    width: 80px;
+    border-radius: 5px;
+    margin: 20px auto;
+    background-image: url("~assets/background1.jpg");
+}

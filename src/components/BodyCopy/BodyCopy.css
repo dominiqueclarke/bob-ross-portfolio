@@ -1,0 +1,15 @@
+.body-copy {
+    font-family: "Montserrat";
+}
+
+.body-copy--s {
+    font-size: 12px;
+}
+
+.body-copy--m {
+    font-size: 14px;
+}
+
+.body-copy--l {
+    font-size: 16px;
+}
