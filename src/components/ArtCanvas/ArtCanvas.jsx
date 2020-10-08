@@ -18,7 +18,7 @@ const StyledCanvas = styled.canvas`
     }
 `;
 
-function App() {
+function ArtCanvas() {
     useEffect(() => {
         startScratch();
     }, []);
@@ -26,4 +26,4 @@ function App() {
     return <StyledCanvas id="art"></StyledCanvas>;
 }
 
-export default App;
+export default ArtCanvas;

@@ -2,12 +2,15 @@ export default function startScratch() {
     const art = document.getElementById("art");
     const artCanvas = art.getContext("2d");
     const brushRadius = 100;
+    const isMobile = window.matchMedia("(max-width: 640px)");
 
     artCanvas.canvas.width = window.innerWidth;
     artCanvas.canvas.height = window.innerHeight;
 
-    artCanvas.fillStyle = "white";
-    artCanvas.fillRect(0, 0, window.innerWidth, window.innerHeight);
+    if (!isMobile) {
+        artCanvas.fillStyle = "white";
+        artCanvas.fillRect(0, 0, window.innerWidth, window.innerHeight);
+    }
 
     function drawDot(mouseX, mouseY) {
         artCanvas.beginPath();
@@ -21,18 +24,6 @@ export default function startScratch() {
         "mousemove",
         function (e) {
             drawDot(e.clientX, e.clientY);
-        },
-        false
-    );
-
-    document.body.addEventListener(
-        "touchmove",
-        function (e) {
-            e.preventDefault();
-            var touch = e.targetTouches[0];
-            if (touch) {
-                drawDot(e.clientX, e.clientY);
-            }
         },
         false
     );
