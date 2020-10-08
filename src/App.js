@@ -12,7 +12,7 @@ import Credits from "components/Credits/Credits";
 import Header from "components/Header/Header";
 import Intro from "components/Intro/Intro";
 
-import { ART } from "./constants";
+import { ART } from "data/art";
 
 function App() {
     const [art, setArt] = useState({
