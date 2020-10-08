@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.97b3c940.chunk.css",
-    "main.js": "/static/js/main.56c023ff.chunk.js",
-    "main.js.map": "/static/js/main.56c023ff.chunk.js.map",
+    "main.css": "/static/css/main.31d3b57c.chunk.css",
+    "main.js": "/static/js/main.d2378e96.chunk.js",
+    "main.js.map": "/static/js/main.d2378e96.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f94f4e03.js",
     "runtime-main.js.map": "/static/js/runtime-main.f94f4e03.js.map",
     "static/css/2.c80970b9.chunk.css": "/static/css/2.c80970b9.chunk.css",
     "static/js/2.028a4930.chunk.js": "/static/js/2.028a4930.chunk.js",
     "static/js/2.028a4930.chunk.js.map": "/static/js/2.028a4930.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.2fbe56988a86ae0e2c55e2a8d37f24d8.js": "/precache-manifest.2fbe56988a86ae0e2c55e2a8d37f24d8.js",
+    "precache-manifest.14faa27757ae9d30bbc7951761c94280.js": "/precache-manifest.14faa27757ae9d30bbc7951761c94280.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.c80970b9.chunk.css.map": "/static/css/2.c80970b9.chunk.css.map",
-    "static/css/main.97b3c940.chunk.css.map": "/static/css/main.97b3c940.chunk.css.map",
+    "static/css/main.31d3b57c.chunk.css.map": "/static/css/main.31d3b57c.chunk.css.map",
     "static/js/2.028a4930.chunk.js.LICENSE.txt": "/static/js/2.028a4930.chunk.js.LICENSE.txt",
     "static/media/background1.jpg": "/static/media/background1.11b4fbef.jpg",
     "static/media/background2.jpg": "/static/media/background2.a327e0b1.jpg",
@@ -23,7 +23,7 @@
     "static/media/background7.jpg": "/static/media/background7.bc88d166.jpg",
     "static/media/background8.jpg": "/static/media/background8.62eb9595.jpg",
     "static/media/brush-stroke.svg": "/static/media/brush-stroke.19e2c74b.svg",
-    "static/media/cursor.svg": "/static/media/cursor.da6fe4d3.svg",
+    "static/media/cursor.svg": "/static/media/cursor.c6c261c4.svg",
     "static/media/headshot.jpg": "/static/media/headshot.e66f53c2.jpg",
     "static/media/index.css": "/static/media/permanent-marker-latin-400.ab4be30d.woff"
   },
@@ -31,7 +31,7 @@
     "static/js/runtime-main.f94f4e03.js",
     "static/css/2.c80970b9.chunk.css",
     "static/js/2.028a4930.chunk.js",
-    "static/css/main.97b3c940.chunk.css",
-    "static/js/main.56c023ff.chunk.js"
+    "static/css/main.31d3b57c.chunk.css",
+    "static/js/main.d2378e96.chunk.js"
   ]
 }
